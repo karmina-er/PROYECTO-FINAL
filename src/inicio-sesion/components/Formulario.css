@@ -1,0 +1,12 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .formulario{
+        align-items: center;
+    }
+}

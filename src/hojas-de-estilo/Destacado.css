@@ -1,0 +1,40 @@
+.contenedor-destacado {
+    width: 1170 px;
+    height: 368 px;
+    margin: 10 px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#e4e2def9;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0  / 9%);
+}
+
+.imagen-destacado {
+    height: 100%;
+    width: auto;
+    
+}
+
+.contenedor-texto-destacado {
+    width: 100%;
+    font-size: 18 px;
+    text-align: center;
+    padding: 40px;
+    font-family:fantasy;
+    font-weight: 400;
+    line-height: 2.5rem;
+    
+}
+.nombre-platillo {
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.precio-platillo {
+    font-size: 1.3rem;
+    font-weight: 400;
+    
+}
+.texto-platillo {
+    font-size: 1.1rem;
+    text-align: justify;
+}

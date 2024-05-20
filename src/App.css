@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+html, 
+body {
+  background-color: rgba(219,218,216,255);
+  
+}
+h1{
+  max-width: 1300px;
+  font-size: 5.5em;
+  font-family: fantasy;
+  font-weight: 700;
+  line-height: 1;
+  margin: 20px 0;
+  color: rgba(164,139,97,255);
+
+}
+
+h2{
+  max-width: 1300px;
+  font-size: 2.3em;
+  font-family: fantasy;
+  font-weight: 700;
+  line-height: 1.9;
+  margin: 50px 0;
+  color:whitesmoke; 
+}
+
+.App {min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cuadros-destacado{
+  max-width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.contenedor-principal{
+  min-height: 800px ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.menu-simple ul{
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+.menu simple {
+ 
+}
+
+html {
+  font-family: fantasy;
+}
+body {
+  margin: 0;
+
+}
+.centrado {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 1300px;
+}
+.menu-seccion {
+  
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid hsl(0, 0%, );
+}
+.menu ul {
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background:rgba(164,139,97,255) ; 
+}
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: #445E93;
+  padding: .6em 1em;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: fantasy;
+  
+}
+.menu li a:hover {
+  background: whitesmoke;
+}
+h2 {
+  color: #445E93;
+}
+.inc{
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+    height: 2.5em;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
